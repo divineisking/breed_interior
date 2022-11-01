@@ -1,0 +1,340 @@
+body{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+}
+
+.header{
+    height: 500px;
+    width: 100%;
+    margin: 0px 0px 50px 0px;
+    background-image:url(img/pexels-artem-beliaikin-452738.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.header img{
+    height: 250px;
+    width: 250px;
+}
+
+main{
+    margin: 25px 30px 5px 30px;
+
+}
+
+.about{
+    text-align: center;
+    margin: 25px 15px 100px 15px;
+    padding: 5px 15px 5px 15px;
+}
+
+.about p{
+    margin: 5px 0 0 0;
+}
+
+.services{
+    margin: 75px 15px 5px 55px ;
+    min-width: 200px;
+    padding: 25px 25px 5px 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    row-gap: 25px;
+    column-gap: 200px;
+}
+
+.services div{
+    border: 1px black solid;
+    border-top:none;
+    height: fit-content;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.services .icon{
+    margin: 0px 0px 5px 0px;
+}
+
+.services .text{
+    background-color: rgb(3, 58, 3);
+    color: white;
+    height: 55px;
+    width: inherit;
+    margin-bottom: 0px;
+
+}
+
+.features{
+    margin: 75px 15px 75px 15px;
+    padding: 25px 25px 5px 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 65px;
+
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.features div img{
+    min-width: 250px;
+    width: 750px;
+    height: 500px;
+}
+
+.footer{
+    margin: 25px 0px 0px 0px;
+    padding: 5% 15% 5% 15%;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 58, 3);
+}
+
+.contact-form{
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    width: 50%;
+}
+
+.contact-form div{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 5px;
+    justify-content: center;
+}
+
+.contact-form label{
+    margin: 5px 0px 5px 0px;
+}
+
+.contact-form input{
+    width: 85%;
+}
+
+.contact-form textarea{
+    width: 85%;
+    height: 75px;
+}
+
+.contact-form button{
+    width:fit-content;
+    margin: 0px 25px 0px 0px;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    margin: 15px 5px 5px 5px;
+    border: rgb(248, 115, 7);
+    background-color:rgb(248, 115, 7) ;
+    font-size: medium;
+    font-weight: 500;
+    align-self: center;
+}
+
+.contacts{
+    color: white;
+    gap: 0 0;
+    text-align: center;
+    
+}
+
+.contacts h5{
+    font-size: x-large;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.contacts p{
+    font-size: larger;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+@media(max-width:429px){
+    .header{
+        height: 200px;
+        width: 100%;
+        margin: 0px 0px 50px 0px;
+        background-image:url(img/pexels-artem-beliaikin-452738.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .header div{
+        align-self: center;
+    }
+    .header div{
+        height: 25%;
+        width: 25%;
+        background-color: rgba(128, 128, 128, 0.911);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header p{
+        padding: 0px 0px 0px 0px;
+    }
+    
+    main{
+        margin: 25px 0px 25px 0px;
+        
+    
+    }
+    
+    .about{
+        text-align: center;
+        margin: 0px 0px 25px 0px;
+        padding: 5px 5px 5px 5px;
+        
+    }
+    
+    .about p{
+        margin: 5px 0 0 0;
+        max-width: fit-content;
+        word-wrap: break-word;
+    }
+    
+    .services{
+        margin: 75px 0px 5px 0px ;
+        padding: 25px 0px 5px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+    
+    .services div{
+        border: 1px black solid;
+        border-top:none;
+        height: fit-content;
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .services .icon{
+        margin: 0px 0px 5px 0px;
+    }
+    
+    .services .text{
+        background-color: rgb(3, 58, 3);
+        color: white;
+        height: 55px;
+        width: inherit;
+        margin-bottom: 0px;
+    
+    }
+    
+    .features{
+        margin: 75px 15px 5px 15px;
+        padding: 25px 25px 5px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 65px;
+    
+    }
+    
+    .features div img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .footer{
+        margin: 25px 0px 0px 0px;
+        padding: 5% 0% 5% 0%;
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(3, 58, 3);
+    }
+
+    .contact-form{
+        display: flex;
+        flex-flow: column wrap;
+        color: white;
+        width: 50%;
+    }
+    
+    .contact-form div{
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 0px;
+        justify-content: center;
+    }
+    
+    .contact-form label{
+        margin: 5px 0px 5px 0px;
+    }
+    
+    .contact-form input{
+        width: 95%;
+        height: 15px;
+    }
+    
+    .contact-form textarea{
+        width: 95%;
+        height: 50px;
+    }
+    
+    .contact-form button{
+        width:fit-content;
+        padding: 5px 5px 5px 5px;
+        color: white;
+        margin: 15px 5px 5px 5px;
+        border: rgb(248, 115, 7);
+        background-color:rgb(248, 115, 7) ;
+        font-size: small;
+        font-weight: 500;
+        align-self: center;
+    }
+    
+    .contacts{
+        color: white;
+        gap: 0 0;
+        text-align: center;
+        
+    }
+    
+    .contacts h5{
+        font-size: x-large;
+        font-weight: 700;
+        font-family: monospace;
+    }
+    
+    .contacts p{
+        font-size: larger;
+        font-family: monospace;
+        font-weight: 700;
+    }
+    
+}
+
+
+
+
+
